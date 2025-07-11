@@ -5,6 +5,9 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
+                '''
+                sh echo "I want to be the best Devops Engineer, EVER! "
+                '''
             }
         }
     }
